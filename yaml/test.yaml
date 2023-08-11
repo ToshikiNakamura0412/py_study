@@ -1,13 +1,16 @@
 task:
-  - task_type: "detect_line"
+  -
+    task_type: "detect_line"
     edge:
       node0_id: 0
       node1_id: 1
-  - task_type: "detect_line"
+  -
+    task_type: "detect_line"
     edge:
       node0_id: 2
       node1_id: 3
-  - task_type: "announce"
+  -
+    task_type: "announce"
     edge:
       node0_id: 100
       node1_id: 101
